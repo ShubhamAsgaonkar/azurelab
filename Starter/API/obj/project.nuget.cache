@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "k3T76NsNKoze56rkOhPA01Hni7WK7vdtTJJfpPjiqBwF0zMkM69g59KqY3oeifamYgZosLDqokmeeNvG0FwvDg==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\asgao\\OneDrive\\Desktop\\Shubham\\azure\\AZ-204-DevelopingSolutionsforMicrosoftAzure\\Allfiles\\Labs\\01\\Starter\\API\\Api.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Azure.Storage.Blobs (>= 12.12.0)' for 'net6.0'.",
+      "libraryId": "Azure.Storage.Blobs",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Flurl (>= 3.0.6)' for 'net6.0'.",
+      "libraryId": "Flurl",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

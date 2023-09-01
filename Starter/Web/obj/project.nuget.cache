@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "iJ1uS7d4J+CyjoMwnaHFZZa5ltA0/whHWowQi/W0jjZHOTYUaiecQshsyiB6qjG5qtzFw6s627A8mekcLEb/Gw==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\asgao\\OneDrive\\Desktop\\Shubham\\azure\\AZ-204-DevelopingSolutionsforMicrosoftAzure\\Allfiles\\Labs\\01\\Starter\\Web\\Web.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Newtonsoft.Json (>= 13.0.1)' for 'net6.0'.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Azure.Storage.Blobs >= 12.12.0",
+      "Flurl >= 3.0.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\asgao\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\asgao\\OneDrive\\Desktop\\Shubham\\azure\\AZ-204-DevelopingSolutionsforMicrosoftAzure\\Allfiles\\Labs\\01\\Starter\\API\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "c:\\Users\\asgao\\OneDrive\\Desktop\\Shubham\\azure\\AZ-204-DevelopingSolutionsforMicrosoftAzure\\Allfiles\\Labs\\01\\Starter\\API\\Api.csproj",
+      "packagesPath": "C:\\Users\\asgao\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\asgao\\OneDrive\\Desktop\\Shubham\\azure\\AZ-204-DevelopingSolutionsforMicrosoftAzure\\Allfiles\\Labs\\01\\Starter\\API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\asgao\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Azure.Storage.Blobs": {
+            "target": "Package",
+            "version": "[12.12.0, )"
+          },
+          "Flurl": {
+            "target": "Package",
+            "version": "[3.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.413\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Azure.Storage.Blobs (>= 12.12.0)' for 'net6.0'.",
+      "libraryId": "Azure.Storage.Blobs",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Flurl (>= 3.0.6)' for 'net6.0'.",
+      "libraryId": "Flurl",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
